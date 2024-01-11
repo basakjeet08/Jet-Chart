@@ -46,6 +46,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    testImplementation("org.testng:testng:6.9.6")
+    testImplementation("org.testng:testng:6.9.6")
+    testImplementation("org.testng:testng:6.9.6")
 
 
     // Compose Testing Libraries
