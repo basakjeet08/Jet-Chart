@@ -1,4 +1,4 @@
-package dev.anirban.jetchart.common.coordinates
+package dev.anirban.jetchart.common
 
 import androidx.compose.ui.geometry.Offset
 

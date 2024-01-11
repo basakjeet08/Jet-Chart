@@ -6,10 +6,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import dev.anirban.jetchart.calculator.LinearStringData
-import dev.anirban.jetchart.chart.LinearChart
-import dev.anirban.jetchart.common.coordinates.ChartPoint
-import dev.anirban.jetchart.renderer.plot.LinearLinePlot
+import dev.anirban.jetchart.common.ChartPoint
+import dev.anirban.jetchart.linear.calculator.LinearStringData
+import dev.anirban.jetchart.linear.chart.LinearChart
+import dev.anirban.jetchart.linear.renderer.plot.LinearLinePlot
 import dev.anirban.jetchartdemo.CustomCard
 
 @Composable

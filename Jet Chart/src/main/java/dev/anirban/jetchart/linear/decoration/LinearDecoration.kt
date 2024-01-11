@@ -1,4 +1,4 @@
-package dev.anirban.jetchart.common.decoration
+package dev.anirban.jetchart.linear.decoration
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

@@ -1,4 +1,4 @@
-package dev.anirban.jetchart.renderer.margin
+package dev.anirban.jetchart.linear.renderer.margin
 
 import android.graphics.Paint
 import android.graphics.Rect
@@ -8,8 +8,8 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.sp
-import dev.anirban.jetchart.calculator.LinearDataInterface
-import dev.anirban.jetchart.common.decoration.LinearDecoration
+import dev.anirban.jetchart.linear.calculator.LinearDataInterface
+import dev.anirban.jetchart.linear.decoration.LinearDecoration
 
 /**
  * This is one of the implementations of the [LinearMarginInterface] and it provides with a implementation

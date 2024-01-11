@@ -1,4 +1,4 @@
-package dev.anirban.jetchart.calculator
+package dev.anirban.jetchart.linear.calculator
 
 import android.graphics.Paint
 import android.graphics.Rect
@@ -6,7 +6,7 @@ import android.graphics.Typeface
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.unit.sp
-import dev.anirban.jetchart.common.coordinates.ChartPoint
+import dev.anirban.jetchart.common.ChartPoint
 
 /**
  * This is one of the implementation for storing and calculating the data in the chart. It

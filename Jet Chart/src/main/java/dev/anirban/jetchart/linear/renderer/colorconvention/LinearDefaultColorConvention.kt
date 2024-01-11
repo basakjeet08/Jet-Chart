@@ -1,7 +1,7 @@
-package dev.anirban.jetchart.renderer.colorconvention
+package dev.anirban.jetchart.linear.renderer.colorconvention
 
 import androidx.compose.runtime.Composable
-import dev.anirban.jetchart.common.decoration.LinearDecoration
+import dev.anirban.jetchart.linear.decoration.LinearDecoration
 
 /**
  * This class is the implementation of [LinearColorConventionInterface] which provides the

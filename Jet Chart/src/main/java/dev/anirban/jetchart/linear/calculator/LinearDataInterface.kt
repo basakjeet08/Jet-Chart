@@ -1,8 +1,8 @@
-package dev.anirban.jetchart.calculator
+package dev.anirban.jetchart.linear.calculator
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.drawscope.DrawScope
-import dev.anirban.jetchart.common.coordinates.ChartPoint
+import dev.anirban.jetchart.common.ChartPoint
 
 /**
  * This is the Data Interface which has to be implemented by the class which makes a new

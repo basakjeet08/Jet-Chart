@@ -1,10 +1,10 @@
-package dev.anirban.jetchart.renderer.plot
+package dev.anirban.jetchart.linear.renderer.plot
 
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
-import dev.anirban.jetchart.calculator.LinearDataInterface
-import dev.anirban.jetchart.common.decoration.LinearDecoration
+import dev.anirban.jetchart.linear.calculator.LinearDataInterface
+import dev.anirban.jetchart.linear.decoration.LinearDecoration
 
 /**
  * This is the Line Plot class which implements the [LinearPlotInterface] Interface and makes a Line

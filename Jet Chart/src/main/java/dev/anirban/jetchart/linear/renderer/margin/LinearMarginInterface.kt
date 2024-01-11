@@ -1,8 +1,8 @@
-package dev.anirban.jetchart.renderer.margin
+package dev.anirban.jetchart.linear.renderer.margin
 
 import androidx.compose.ui.graphics.drawscope.DrawScope
-import dev.anirban.jetchart.calculator.LinearDataInterface
-import dev.anirban.jetchart.common.decoration.LinearDecoration
+import dev.anirban.jetchart.linear.calculator.LinearDataInterface
+import dev.anirban.jetchart.linear.decoration.LinearDecoration
 
 /**
  * This is the interface which defines that all the Implementation for the Drawing of the margins

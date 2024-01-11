@@ -1,4 +1,4 @@
-package dev.anirban.jetchart.chart
+package dev.anirban.jetchart.linear.chart
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -13,15 +13,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.unit.dp
-import dev.anirban.jetchart.calculator.LinearDataInterface
-import dev.anirban.jetchart.calculator.LinearStringData
-import dev.anirban.jetchart.common.decoration.LinearDecoration
-import dev.anirban.jetchart.renderer.colorconvention.LinearColorConventionInterface
-import dev.anirban.jetchart.renderer.colorconvention.LinearDefaultColorConvention
-import dev.anirban.jetchart.renderer.margin.LinearMarginInterface
-import dev.anirban.jetchart.renderer.margin.LinearStringMargin
-import dev.anirban.jetchart.renderer.plot.LinearLinePlot
-import dev.anirban.jetchart.renderer.plot.LinearPlotInterface
+import dev.anirban.jetchart.linear.calculator.LinearDataInterface
+import dev.anirban.jetchart.linear.calculator.LinearStringData
+import dev.anirban.jetchart.linear.decoration.LinearDecoration
+import dev.anirban.jetchart.linear.renderer.colorconvention.LinearColorConventionInterface
+import dev.anirban.jetchart.linear.renderer.colorconvention.LinearDefaultColorConvention
+import dev.anirban.jetchart.linear.renderer.margin.LinearMarginInterface
+import dev.anirban.jetchart.linear.renderer.margin.LinearStringMargin
+import dev.anirban.jetchart.linear.renderer.plot.LinearLinePlot
+import dev.anirban.jetchart.linear.renderer.plot.LinearPlotInterface
 
 /**
  * This is the base class which directly implements the [LinearDataInterface] interfaces.
