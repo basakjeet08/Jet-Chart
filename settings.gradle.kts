@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Jet Chart Demo"
 include(":app")
+include(":Jet Chart")
