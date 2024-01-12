@@ -1,5 +1,6 @@
 package dev.anirban.jetchartdemo.preview
 
+import android.content.res.Configuration
 import android.graphics.drawable.BitmapDrawable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat
 import dev.anirban.jetchart.common.ChartPoint
 import dev.anirban.jetchart.linear.calculator.LinearEmojiData
@@ -19,6 +21,28 @@ import dev.anirban.jetchart.linear.renderer.plot.LinearGradientLinePlot
 import dev.anirban.jetchart.linear.renderer.plot.LinearLinePlot
 import dev.anirban.jetchartdemo.CustomCard
 import dev.anirban.jetchartdemo.R
+import dev.anirban.jetchartdemo.ui.theme.JetChartDemoTheme
+
+// Preview Composable Function
+@Preview(
+    "Light",
+    heightDp = 2000,
+    showBackground = true
+)
+@Preview(
+    name = "Dark",
+    heightDp = 2000,
+    uiMode = Configuration.UI_MODE_NIGHT_YES,
+    showBackground = true
+)
+@Composable
+private fun DefaultPreview() {
+    JetChartDemoTheme {
+
+        // Call Function Here
+        LibraryUIDemo()
+    }
+}
 
 @Composable
 fun LibraryUIDemo() {

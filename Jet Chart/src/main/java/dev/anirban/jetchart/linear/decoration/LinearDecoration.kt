@@ -38,8 +38,8 @@ class LinearDecoration(
         @Composable
         fun lineDecorationColors(
             textColor: Color = MaterialTheme.colorScheme.onSurface,
-            plotPrimaryColor: List<Color> = listOf(colorBlue, colorGreen, Color.Yellow),
-            plotSecondaryColor: List<Color> = listOf(colorYellow, colorRed, Color.Red)
+            plotPrimaryColor: List<Color> = listOf(colorBlue, colorGreen, colorRed, colorYellow),
+            plotSecondaryColor: List<Color> = listOf(colorBlue, colorGreen, colorRed, colorYellow)
         ) = LinearDecoration(
             textColor = textColor,
             plotPrimaryColor = plotPrimaryColor,
